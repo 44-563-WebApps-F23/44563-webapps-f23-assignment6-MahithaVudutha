@@ -61,26 +61,6 @@ function tips(){
             document.getElementById("operationresult").innerHTML="Operation Result are:"+resultText;
         }
     </script>
-    <script>
-        function chooseOp ()
-        {
-            console.log("Getting form values")
-            baseValue = parseFloat(document.getElementById("base").value)
-            tipValue = parseFloat(document.getElementById("tip_percent").value)
-            answer = document.getElementById("arthimeticop")
-            if(document.getElementById("sum").checked){
-              answer.innerHTML="Sum of "+baseValue+" and"+tipValue+" is "+(baseValue+tipValue)
-            }
-            else if(document.getElementById("diff").checked){
-              answer.innerHTML="diff of "+baseValue+" and"+tipValue+" is "+(baseValue-tipValue)
-            }
-          
-            else if(document.getElementById("mult").checked){
-                answer.innerHTML="product of "+baseValue+" and"+tipValue+" is "+(baseValue*tipValue)
-            }
-            answer.style.color="#ff0000"
-        }
-    </script>
 </from>
 </body>
 </html> 
